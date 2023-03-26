@@ -1,0 +1,33 @@
+<section class="md:py-14">
+    <div class="md:container">
+        <div class="relative py-12 px-5 md:pb-20 md:pt-16 md:px-5 lg:px-7 xl:px-16 md:rounded-3xl overflow-hidden bg-gray-100">
+            {{ $image := resources.Get "images/editorsBg.jpeg" }}
+            {{ with $image }}
+                <span class="hidden md:block absolute top-0 left-0 right-0 bottom-2/4 z-0">
+                    <img
+                    class="w-full h-full object-cover object-center" 
+                        src="{{ $image.RelPermalink }}" 
+                        width="{{ .Width }}" 
+                        height="{{ .Height }}"
+                    >
+                </span>
+            {{ end }}
+            <span style="background: linear-gradient(354deg, rgba(243,244,246,1) 55%, rgba(243,244,246,.5) 100%);" class="hidden md:block absolute top-0 left-0 right-0 bottom-0 z-20"></span>
+            <article class="sticky z-30">
+                <h2 class="font-bold text-lg text-center">
+                    Editor’s Choice
+                </h2>
+                <div class="bg-primary md:bg-transparent py-6 px-5 rounded-lg mt-6 md:mt-12 flex flex-col md:flex-row items-stretch justify-center gap-6">
+                    {{ partial "custom/sub/editors-item" . }}
+                    {{ partial "custom/sub/editors-item" . }}
+                    {{ partial "custom/sub/editors-item" . }}
+                </div>
+                <div class="mt-6 md:mt-8 text-center md:text-right">
+                    <a href="" class="hover:underline inline-block">
+                        See all featured posts →
+                    </a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>

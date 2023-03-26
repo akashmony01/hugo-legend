@@ -1,0 +1,77 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - My New Hugo Site</title>
+        <link>http://example.org/tags/</link>
+        <description>Tags - Tag - My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 14 Mar 2023 14:23:26 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Biomedical research</title>
+    <link>http://example.org/tags/biomedical-research/</link>
+    <pubDate>Tue, 14 Mar 2023 14:23:26 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/tags/biomedical-research/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Brain disorders</title>
+    <link>http://example.org/tags/brain-disorders/</link>
+    <pubDate>Tue, 14 Mar 2023 14:23:26 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/tags/brain-disorders/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Early detection</title>
+    <link>http://example.org/tags/early-detection/</link>
+    <pubDate>Tue, 14 Mar 2023 14:23:26 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/tags/early-detection/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Mental health</title>
+    <link>http://example.org/tags/mental-health/</link>
+    <pubDate>Tue, 14 Mar 2023 14:23:26 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/tags/mental-health/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Technology in healthcare</title>
+    <link>http://example.org/tags/technology-in-healthcare/</link>
+    <pubDate>Tue, 14 Mar 2023 14:23:26 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/tags/technology-in-healthcare/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>addiction</title>
+    <link>http://example.org/tags/addiction/</link>
+    <pubDate>Thu, 09 Mar 2023 18:31:09 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/tags/addiction/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>neurobiology</title>
+    <link>http://example.org/tags/neurobiology/</link>
+    <pubDate>Thu, 09 Mar 2023 18:31:09 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/tags/neurobiology/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>social isolation</title>
+    <link>http://example.org/tags/social-isolation/</link>
+    <pubDate>Thu, 09 Mar 2023 18:31:09 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/tags/social-isolation/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>social neuroscience</title>
+    <link>http://example.org/tags/social-neuroscience/</link>
+    <pubDate>Thu, 09 Mar 2023 18:31:09 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/tags/social-neuroscience/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Inner Strength</title>
+    <link>http://example.org/tags/inner-strength/</link>
+    <pubDate>Thu, 09 Mar 2023 12:46:06 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/tags/inner-strength/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>

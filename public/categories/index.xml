@@ -1,0 +1,35 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Category - My New Hugo Site</title>
+        <link>http://example.org/categories/</link>
+        <description>Categories - Category - My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 14 Mar 2023 14:23:26 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Health and Wellness</title>
+    <link>http://example.org/categories/health-and-wellness/</link>
+    <pubDate>Tue, 14 Mar 2023 14:23:26 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/categories/health-and-wellness/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Health &amp;amp; Wellness</title>
+    <link>http://example.org/categories/health-amp-wellness/</link>
+    <pubDate>Thu, 09 Mar 2023 18:31:09 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/categories/health-amp-wellness/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Personal Development</title>
+    <link>http://example.org/categories/personal-development/</link>
+    <pubDate>Thu, 09 Mar 2023 12:46:06 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/categories/personal-development/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Mental Health</title>
+    <link>http://example.org/categories/mental-health/</link>
+    <pubDate>Wed, 08 Mar 2023 12:54:03 &#43;0000</pubDate><author>
+        <name>Author</name>
+    </author><guid>http://example.org/categories/mental-health/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>

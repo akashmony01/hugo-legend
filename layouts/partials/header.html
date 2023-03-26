@@ -1,0 +1,143 @@
+<header 
+    class="fixed top-0 left-0 right-0 header-index py-2 bg-white border-b h-20 flex flex-col justify-center hover:shadow-none"
+    x-data="{ showSearch: false, showMenu: false }"
+>
+    <div class="container flex items-center gap-4 justify-between">
+        <button class="block lg:hidden">
+            <span @click="showMenu = true" x-show="!showMenu" x-cloak class="flex w-7 flex flex-col items-start gap-1">
+                <span class="w-full h-0.5 bg-textColor block"></span>
+                <span class="w-11/12 h-0.5 bg-textColor block"></span>
+                <span class="w-10/12 h-0.5 bg-textColor block"></span>
+                <span class="w-9/12 h-0.5 bg-textColor block"></span>
+            </span>
+            <svg @click="showMenu = false" x-show="showMenu" x-cloak xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg> 
+        </button>
+        <div class="headerTitle">
+            <a href="{{ .Site.Home.RelPermalink }}" title="{{ .Site.Title }}">
+                {{- with .Site.Params.header.title -}}
+                    {{- with .logo -}}
+                        {{- dict "Src" . "Class" "w-52 mr-0" | partial "plugin/image.html" -}}
+                    {{- end -}}
+                    {{- with .pre -}}
+                        <span class="header-title-pre">{{ . | safeHTML }}</span>
+                    {{- end -}}
+                    {{- if .typeit -}}
+                        {{- $id := dict "Content" .name "Scratch" $.Scratch "Id" "desktop-header-typeit" | partial "function/id.html" -}}
+                        <span id="{{ $id }}" class="typeit"></span>
+                        {{- dict $id (slice $id) | dict "typeitMap" | merge ($.Scratch.Get "this") | $.Scratch.Set "this" -}}
+                    {{- else -}}
+                        {{- .name -}}
+                    {{- end -}}
+                    {{- with .post -}}
+                        <span class="header-title-post">{{ . | safeHTML }}</span>
+                    {{- end -}}
+                {{- else -}}
+                    {{- .Site.Title -}}
+                {{- end -}}
+            </a>
+        </div>
+        <div class="flex items-center gap-7">
+            <button class="relative hover:text-secondery">
+                <svg @click="showSearch = true" x-show="!showSearch" x-cloak xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                </svg>
+                <svg @click="showSearch = false" x-show="showSearch" x-cloak xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>                      
+            </button>
+            <nav 
+                class="
+                    fixed lg:static mt-20 lg:mt-0 pt-5 lg:pt-0 z-10
+                    top-0 left-0 right-0 bottom-0 
+                    bg-white lg:bg-transparent
+                "
+                :class="{ 'hidden lg:flex': !showSearch && !showMenu  }"
+                x-transition.opacity
+            >
+                <div 
+                    class="static lg:fixed top-20 left-0 right-0 bg-white lg:py-5 lg:shadow-sm"
+                    x-show="showSearch || showMenu" x-cloak
+                    @mousedown.outside="showSearch = false"
+                    x-transition.opacity
+                >
+                    <div class="container lg:max-w-xl">
+                        <form class="relative">
+                            <span class="absolute block top-2/4 left-3.5 transform -translate-y-2/4 opacity-60">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                                </svg>
+                            </span>
+                            <input
+                                class="searchBar w-full py-2 pl-11 pr-20 border-2 border-body focus:outline-none" 
+                                type="text" 
+                                placeholder="Search"
+                            />
+                            <button type="submit" class="searchBtn hidden absolute top-0 right-0 bottom-0 uppercase font-bold text-white hover:text-white bg-black hover:bg-tertiary py-2 px-4">
+                                Go
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <ul 
+                    class="
+                        text-lg lg:text-base
+                        font-semibold leading-tight tracking-wide
+                        flex lg:flex flex-col lg:flex-row 
+                        items-start lg:items-center gap-3 lg:gap-7
+                        container lg:px-0 py-5 lg:py-0
+                    "
+                    :class="{ 'hidden lg:flex': !showMenu && !showSearch }"
+                    x-transition.opacity
+                >
+                    <!-- <li>
+                        <a href="" class="menuItem">
+                            Fitness
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="menuItem">
+                            Nutrition
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="menuItem">
+                            News
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="menuItem">
+                            What to Buy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="menuItem">
+                            Tools
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="menuItem">
+                            About Us
+                        </a>
+                    </li> -->
+
+                    {{- range .Site.Menus.main -}}
+                        {{- $url := .URL | relLangURL -}}
+                        {{- with .Page -}}
+                            {{- $url = .RelPermalink -}}
+                        {{- end -}}
+                        <!-- <a class="menu-item{{ if $.IsMenuCurrent `main` . | or ($.HasMenuCurrent `main` .) | or (eq $.RelPermalink $url) }} active{{ end }}" href="{{ $url }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if (urls.Parse $url).Host }} rel="noopener noreferrer" target="_blank"{{ end }}>
+                            {{- .Pre | safeHTML }} {{ .Name }} {{ .Post | safeHTML -}}
+                        </a> -->
+                        <li>
+                            <a class="menuItem menu-item{{ if $.IsMenuCurrent `main` . | or ($.HasMenuCurrent `main` .) | or (eq $.RelPermalink $url) }} active{{ end }}" href="{{ $url }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if (urls.Parse $url).Host }} rel="noopener noreferrer" target="_blank"{{ end }}>
+                                {{- .Pre | safeHTML }} {{ .Name }} {{ .Post | safeHTML -}}
+                            </a>
+                        </li>
+                    {{- end -}}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>

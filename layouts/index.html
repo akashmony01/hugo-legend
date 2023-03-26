@@ -1,0 +1,12 @@
+{{- define "content" -}}
+    {{- $params := .Scratch.Get "params" -}}
+    {{- $posts := .Site.Params.home.posts -}}
+
+    {{ partial "custom/home/popular-tags" . }}
+    {{ partial "custom/home/hero-posts" . }}
+    {{ partial "custom/home/editors-choice" . }}
+    {{ partial "custom/home/3-col-post-row" . }}
+    {{ partial "custom/home/4-col-post-row" . }}
+    {{ partial "custom/home/4-col-post-row" . }}
+    {{ partial "custom/call-to-action" . }}
+{{- end -}}

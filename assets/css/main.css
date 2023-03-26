@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: montserrat;
+        src: url('../fonts/Montserrat/Montserrat-Thin.ttf');
+        font-style: normal;
+        font-weight: 100;
+    }
+    @font-face {
+        font-family: gt-walsheim;
+        src: url('../fonts/Montserrat/Montserrat-ExtraLight.ttf');
+        font-style: normal;
+        font-weight: 200;
+    }
+    @font-face {
+        font-family: montserrat;
+        src: url('../fonts/Montserrat/Montserrat-Light.ttf');
+        font-style: normal;
+        font-weight: 300;
+    }
+    @font-face {
+        font-family: montserrat;
+        src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+        font-style: normal;
+        font-weight: 400;
+    }
+    @font-face {
+        font-family: montserrat;
+        src: url('../fonts/Montserrat/Montserrat-Medium.ttf');
+        font-style: normal;
+        font-weight: 500;
+    }
+    @font-face {
+        font-family: montserrat;
+        src: url('../fonts/Montserrat/Montserrat-SemiBold.ttf');
+        font-style: normal;
+        font-weight: 600;
+    }
+    @font-face {
+        font-family: montserrat;
+        src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
+        font-style: normal;
+        font-weight: 700;
+    }
+    @font-face {
+        font-family: montserrat;
+        src: url('../fonts/Montserrat/Montserrat-ExtraBold.ttf');
+        font-style: normal;
+        font-weight: 800;
+    }
+    @font-face {
+        font-family: montserrat;
+        src: url('../fonts/Montserrat/Montserrat-Black.ttf');
+        font-style: normal;
+        font-weight: 700;
+    }
+    @font-face {
+        font-family: montserrat;
+        src: url('../fonts/Montserrat/Montserrat-Italic.ttf');
+        font-style: italic;
+    }
+    /* merriweather */
+    @font-face {
+        font-family: merriweather;
+        src: url('../fonts/Merriweather/Merriweather-Light.ttf');
+        font-style: normal;
+        font-weight: 300;
+    }
+    @font-face {
+        font-family: merriweather;
+        src: url('../fonts/Merriweather/Merriweather-Regular.ttf');
+        font-style: normal;
+        font-weight: 400;
+    }
+    @font-face {
+        font-family: merriweather;
+        src: url('../fonts/Merriweather/Merriweather-Bold.ttf');
+        font-style: normal;
+        font-weight: 700;
+    }
+    @font-face {
+        font-family: merriweather;
+        src: url('../fonts/Merriweather/Merriweather-Black.ttf');
+        font-style: normal;
+        font-weight: 100;
+    }
+    @font-face {
+        font-family: merriweather;
+        src: url('../fonts/Merriweather/Merriweather-Italic.ttf');
+        font-style: italic;
+    }
+
+    html,
+    body {
+        scroll-behavior: smooth;
+        @apply font-montserrat text-textColor;
+    }
+
+    a,
+    button,
+    .btn {
+        @apply cursor-pointer duration-300 hover:text-textColor;
+    }
+
+    .below-header-index {
+        z-index: 9997;
+    }
+
+    .header-index {
+        z-index: 9998;
+    }
+
+    .above-header-index {
+        z-index: 9999;
+    }
+
+    .menuItem {
+        @apply lg:border-b border-transparent hover:border-secondery inline-block hover:text-secondery lg:hover:text-textColor;
+        border-bottom-width: 3px;
+    }
+    @media only screen and (max-width: 1024px) {
+        .menuItem {
+            border: none;
+        }
+    }
+
+    .searchBar:focus + .searchBtn {
+        display: block;
+    }
+
+    .lineBgBox {
+        position: relative;
+    }
+    .lineBgBox:hover {
+        transform: translate(3px,-3px);
+    }
+    .lineBgBox::after {
+        z-index: 0;
+        background-size: 6px 6px;
+        background-position-y: bottom;
+        background-image: linear-gradient(135deg,rgba(13,13,13,.5) 15.11%,rgba(255,255,255,0) 15.11%,rgba(255,255,255,0) 50%,rgba(13,13,13,.5) 50%,rgba(13,13,13,.5) 64.11%,rgba(255,255,255,0) 64.11%,rgba(255,255,255,0) 100%);
+        transition: transform .3s;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+        top: 0;
+        left: 0;
+    }
+    .lineBgBox:hover::after {
+        transform: translate(-10px,10px);
+    }
+    .lineBgBox:hover .heading {
+        text-decoration: underline;
+        @apply decoration-secondery;
+    }
+
+    .postItem:hover .posHeading {
+        @apply text-quaternary underline;
+    }
+
+    [x-cloak] { display: none !important; }
+}

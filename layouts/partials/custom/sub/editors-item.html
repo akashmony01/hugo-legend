@@ -1,0 +1,19 @@
+<div class="flex flex-row md:flex-col gap-4 relative w-full md:w-4/12 md:p-4 lg:p-6 md:rounded-2xl md:bg-primary duration-300 transform hover:-translate-y-1">
+    <a href="" class="absolute top-0 left-0 right-0 bottom-0 z-10"></a>
+    {{ $image := resources.Get "images/editorsBg.jpeg" }}
+    {{ with $image }}
+        <img
+            class="w-3/12 md:w-full h-auto md:aspect-video lg:h-52 object-cover object-center rounded-md md:rounded-2xl" 
+            src="{{ $image.RelPermalink }}" 
+            width="{{ .Width }}" 
+            height="{{ .Height }}"
+        >
+    {{ end }}
+    <h3 class="text-xl md:text-2xl lg:text-3xl leading-tight md:leading-tight lg:leading-tight font-merriweather font-bold">
+        AI can solve new problems very easily
+    </h3>
+    <p class="hidden md:block">
+        by
+        <a class="sticky z-20 inline-block hover:underline">Daryl Wehner</a>
+    </p>
+</div>

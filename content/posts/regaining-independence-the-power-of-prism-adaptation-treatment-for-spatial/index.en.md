@@ -1,0 +1,93 @@
+---
+weight: 8
+title: "Regaining Independence: The Power of Prism Adaptation Treatment for Spatial Neglect."
+date: 2023-03-07T21:30:12Z
+lastmod: 2023-03-07T21:30:12Z
+draft: false
+authors: ["Jane"]
+description: "This blog post discusses the importance of spatial awareness and the effectiveness of prism adaptation treatment in rehabilitating individuals with spatial neglect, while also highlighting the limited use of these treatments in the US and the importance of advocacy efforts."
+featuredImage: "regaining-independence-the-power-of-prism-adaptation-treatment-for-spatial.webp"
+series: [""]
+seriesNavigation: false
+tags: ["spatial neglect", "prism adaptation treatment", "rehabilitation", "neurology", "advocacy", ]
+categories: ["Health &amp; Wellness"]
+summary: "In this blog post, we explore the impact of impaired spatial awareness on daily tasks and how prism adaptation treatment can help individuals with spatial neglect regain their independence. Despite the success of these treatments, their adoption in the US remains limited. Join us as we discuss the importance of advocacy efforts and personal success stories in promoting the adoption of effective rehabilitation methods like prism adaptation treatment."
+lightgallery: false
+linkToMarkdown: false
+linkToSource: false
+linkToEdit: false
+linkToReport: false
+rssFullText: true
+pageStyle: wide
+page.related:
+  - enable: true
+  - count: 5
+---                          
+                            
+## The importance of spatial awareness in everyday life
+
+Spatial awareness is a fundamental skill that is often taken for granted in our daily lives. We rely on it for even the most basic tasks like getting dressed or putting on makeup. It is crucial for maintaining our independence and competence in the world. The ability to maneuver difficult decisions, steer and pilot through daily tasks, are all dependent on our spatial awareness.
+
+However, we often forget that there is a system in our brain dedicated to this function. The right brain system is responsible for determining where our body is in three-dimensional space, and how it interacts with its surroundings. This system is critical in our ability to navigate through the world around us, especially when we are moving.
+
+Spatial neglect is a condition that impairs our spatial awareness, making it challenging to perform even the simplest tasks. It causes an out-of-balance, off-centered performance that can result in functional disability and loss of independence.
+
+The impact of impaired spatial awareness on daily tasks is significant. Simple tasks like putting on makeup or shaving become rune-like, and the left side of our body becomes inaccessible. People with this condition are unaware of their errors, making them dangerous, as they have a higher risk of falling.
+
+The characteristics of spatial neglect include an inability to finish food on their plate, difficulty with the left side, and collision with objects. The cognitive exams of individuals with spatial neglect show a lack of awareness of their condition, making it challenging to address.
+
+In conclusion, spatial awareness is a crucial skill that affects our independence and competence in the world. Impaired spatial awareness can lead to functional disability, making even simple tasks challenging. Understanding the characteristics of spatial neglect is necessary to identify and address the condition.
+
+## The risk factors and consequences of spatial neglect
+
+Spatial neglect is a condition that affects many individuals who have suffered from brain injury or stroke. It is estimated that half of people who have a stroke are affected by spatial neglect in the critical weeks and months of recovery. Additionally, about 30% of people who require rehabilitation for traumatic brain injury are affected by this problem.
+
+The consequences of spatial neglect can be severe, impacting not only the individual but also their caregivers. People with spatial neglect have a higher risk of falling and can suffer from injuries that can even be fatal. They may require extended periods of care and supervision, with caregivers spending more than 20 hours a day watching over them.
+
+As a neurologist and a poet, Dr. Jill Bolte Taylor has had a personal fascination with spatial neglect and its impact on individuals. She has been working to understand this condition and its implications for many years, both through her research and her own experiences with patients.
+
+Rehabilitation efforts for spatial neglect have been ongoing, with the goal of improving functional capacity and helping people regain their independence. One of the most promising rehabilitation techniques is the use of prism goggles, which are inexpensive and effective.
+
+Prism adaptation treatment involves the use of wedge prisms that displace what a person sees, stimulating the brain's effortless movement system in the right brain. Therapists can be trained to use these goggles for rehabilitation in about a day, and treatment takes around 10 sessions over two weeks.
+
+Studies have shown that prism adaptation treatment improves functional capacity, helping people with spatial neglect to sit and stand up more straight, use a wheelchair more effectively, and even dress themselves. The treatment has been used successfully in many countries around the world, including Switzerland, France, Germany, Italy, Denmark, and Japan.
+
+Despite the success of this treatment, it is still limited in use in the United States, with only a few high-profile centers offering it. This is due to the slow speed of trust and the reluctance of hospitals and insurers to adopt new paradigms of treatment.
+
+In conclusion, spatial neglect is a serious condition that affects many individuals and their caregivers. Rehabilitation efforts, such as prism adaptation treatment, offer a promising solution to improve functional capacity and help individuals regain their independence. Greater advocacy for these treatments is necessary to ensure they become more widely available and accessible to those in need.
+
+## Introduction to prism goggles for rehabilitation
+
+Prism goggles are an innovative rehabilitation tool that can help individuals with spatial neglect to regain their independence and improve their functional capacity. Dr. Jill Bolte Taylor, a neurologist and poet, has been at the forefront of using these goggles to improve rehabilitation efforts for individuals with spatial neglect.
+
+Prism goggles work by using wedge prisms that are wider on one side than the other. When worn, they displace what a person sees, stimulating the brain's effortless movement system in the right brain. As a result, the individual's vision and movement system start working together to improve their spatial awareness and help them move more accurately.
+
+Studies have shown that prism adaptation treatment using these goggles is highly effective in improving functional capacity for individuals with spatial neglect. More than 500 studies in the laboratory have shown that it helps people sit and stand up more straight, use a wheelchair more effectively, and dress themselves.
+
+Prism adaptation treatment involves wearing the goggles for short periods of time, during which the individual engages in simple tasks such as pointing, marking lines or circles, or even drawing maps. The goggles displace what the person sees, making them make errors in the opposite direction of their neglect. As they continue to make the movement, their vision and movement systems start working together to automatically ramp up leftward actions. After about 10 sessions over two weeks, the brain adapts to the new visual input, and the person's spatial awareness improves significantly.
+
+The success of prism adaptation treatment in the laboratory has been observed in many countries around the world, including Switzerland, France, Germany, Italy, Denmark, and Japan. However, in the United States, only a few high-profile centers have adopted this treatment. This is due to the slow speed of trust and the reluctance of hospitals and insurers to adopt new paradigms of treatment.
+
+In conclusion, prism goggles offer a promising rehabilitation tool for individuals with spatial neglect. The use of these goggles in prism adaptation treatment has been highly successful in the laboratory, and its effectiveness has been observed in many countries around the world. Greater advocacy for these treatments is necessary to ensure they become more widely available and accessible to those in need.
+
+## Limited use of prism adaptation treatment in the US
+
+Prism adaptation treatment is a highly effective rehabilitation tool for individuals with spatial neglect, yet it remains underutilized in the United States. Despite more than 500 studies in the laboratory showing its effectiveness, only a few high-profile centers have adopted this treatment.
+
+The slow speed of trust and the reluctance of hospitals and insurers to adopt new paradigms of treatment are significant factors in the limited use of prism adaptation treatment in the US. However, greater advocacy for these treatments is necessary to ensure they become more widely available and accessible to those in need.
+
+Advocacy efforts can help raise awareness about the effectiveness of these treatments and encourage hospitals and insurers to adopt them. Personal success stories can also play a vital role in advocating for these treatments. For instance, Robert, who received prism adaptation treatment as part of his rehabilitation program, was able to resume his basic level of independence and even drive his car. Another individual mentioned in the video was able to regain his ability to shave and perform daily tasks after receiving treatment.
+
+The success stories of these individuals highlight the importance of adopting prism adaptation treatment as a rehabilitation tool for individuals with spatial neglect. With the support of advocacy efforts and the adoption of new paradigms of treatment, more individuals can benefit from this highly effective treatment.
+
+In conclusion, the limited use of prism adaptation treatment in the US is a significant concern. Advocacy efforts are necessary to raise awareness about the effectiveness of these treatments and encourage hospitals and insurers to adopt them. Personal success stories can help illustrate the impact of these treatments and provide hope for individuals with spatial neglect. By working together to promote the adoption of prism adaptation treatment, we can improve the lives of many individuals struggling with spatial neglect.
+
+## Conclusion
+
+Spatial neglect is a debilitating disorder that affects many individuals recovering from brain injury. The disorder can lead to impaired spatial awareness, making daily tasks like shaving, dressing, and eating challenging. Fortunately, rehabilitation methods like prism adaptation treatment have proven highly effective in improving spatial awareness and allowing individuals to resume their independence.
+
+Despite the success of these treatments, their adoption in the US remains limited. The slow speed of trust and the reluctance of hospitals and insurers to adopt new paradigms of treatment have hindered their widespread use. However, advocacy efforts and personal success stories can help raise awareness and encourage greater adoption of these treatments.
+
+By advocating for these treatments and promoting the adoption of new paradigms of treatment, we can help improve the lives of individuals struggling with spatial neglect. It is essential to recognize the importance of spatial awareness in our everyday lives and ensure that effective rehabilitation methods like prism adaptation treatment are widely available and accessible to those in need.
+
+In conclusion, we must work together to raise awareness, promote adoption, and advocate for the use of effective rehabilitation methods like prism adaptation treatment. With these efforts, we can help individuals with spatial neglect regain their independence and improve their quality of life.

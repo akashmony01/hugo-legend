@@ -1,0 +1,100 @@
+<section class="pt-5">
+    <div class="container flex gap-3">
+        {{ $.Scratch.Set "counter" 0 }}
+        {{- range first 6 $.Site.Taxonomies.tags.ByCount -}}
+            {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+
+            <!-- <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <sup>{{ .Count }}</sup></a> -->
+            <a 
+                href="{{ .Page.RelPermalink }}" 
+                class='
+                    {{ if lt ($.Scratch.Get "counter") 4 }}block{{ else }}hidden md:block{{ end }} 
+                    relative w-4/12 md:w-2/12 h-32 bg-gray-100 overflow-hidden rounded-3xl bg-red-400 hover:-mt-1 text-sm
+                '
+            >
+                {{ $image := resources.Get "images/tag.jpeg" }}
+                {{ with $image }}
+                    <img
+                        class="w-full h-full object-cover object-center" 
+                        src="{{ $image.RelPermalink }}" 
+                        width="{{ .Width }}" 
+                        height="{{ .Height }}"
+                    >
+                {{ end }}
+                <p class="absolute bottom-3 left-3 bg-white rounded-full py-1 px-3 font-medium">
+                    {{ .Page.Title }} {{$.Scratch.Get "counter"}}
+                </p>
+            </a>
+        {{- end -}}
+        <!-- <a href="" class="block relative w-4/12 md:w-2/12 h-32 bg-gray-100 overflow-hidden rounded-3xl bg-red-400 hover:-mt-1 text-sm">
+            {{ $image := resources.Get "images/tag.jpeg" }}
+            {{ with $image }}
+                <img
+                    class="w-full h-full object-cover object-center" 
+                    src="{{ $image.RelPermalink }}" 
+                    width="{{ .Width }}" 
+                    height="{{ .Height }}"
+                >
+            {{ end }}
+            <p class="absolute bottom-3 left-3 bg-white rounded-full py-1 px-3 font-medium">
+                Idea
+            </p>
+        </a>
+        <a href="" class="block relative w-4/12 md:w-2/12 h-32 bg-gray-100 overflow-hidden rounded-3xl bg-red-400 hover:-mt-1 text-sm">
+            {{ $image := resources.Get "images/tag.jpeg" }}
+            {{ with $image }}
+                <img
+                    class="w-full h-full object-cover object-center" 
+                    src="{{ $image.RelPermalink }}" 
+                    width="{{ .Width }}" 
+                    height="{{ .Height }}"
+                >
+            {{ end }}
+            <p class="absolute bottom-3 left-3 bg-white rounded-full py-1 px-3 font-medium">
+                Idea
+            </p>
+        </a>
+        <a href="" class="hidden md:block relative w-4/12 md:w-2/12 h-32 bg-gray-100 overflow-hidden rounded-3xl bg-red-400 hover:-mt-1 text-sm">
+            {{ $image := resources.Get "images/tag.jpeg" }}
+            {{ with $image }}
+                <img
+                    class="w-full h-full object-cover object-center" 
+                    src="{{ $image.RelPermalink }}" 
+                    width="{{ .Width }}" 
+                    height="{{ .Height }}"
+                >
+            {{ end }}
+            <p class="absolute bottom-3 left-3 bg-white rounded-full py-1 px-3 font-medium">
+                Idea
+            </p>
+        </a>
+        <a href="" class="hidden md:block relative w-4/12 md:w-2/12 h-32 bg-gray-100 overflow-hidden rounded-3xl bg-red-400 hover:-mt-1 text-sm">
+            {{ $image := resources.Get "images/tag.jpeg" }}
+            {{ with $image }}
+                <img
+                    class="w-full h-full object-cover object-center" 
+                    src="{{ $image.RelPermalink }}" 
+                    width="{{ .Width }}" 
+                    height="{{ .Height }}"
+                >
+            {{ end }}
+            <p class="absolute bottom-3 left-3 bg-white rounded-full py-1 px-3 font-medium">
+                Idea
+            </p>
+        </a>
+        <a href="" class="hidden md:block relative w-4/12 md:w-2/12 h-32 bg-gray-100 overflow-hidden rounded-3xl bg-red-400 hover:-mt-1 text-sm">
+            {{ $image := resources.Get "images/tag.jpeg" }}
+            {{ with $image }}
+                <img
+                    class="w-full h-full object-cover object-center" 
+                    src="{{ $image.RelPermalink }}" 
+                    width="{{ .Width }}" 
+                    height="{{ .Height }}"
+                >
+            {{ end }}
+            <p class="absolute bottom-3 left-3 bg-white rounded-full py-1 px-3 font-medium">
+                Idea
+            </p>
+        </a> -->
+    </div>
+</section>
